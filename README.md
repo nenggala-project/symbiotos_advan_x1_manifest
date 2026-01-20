@@ -12,7 +12,7 @@ git clone --branch symbiot-16 https://github.com/nenggala-project/symbiotos_adva
 ```
 mkdir ~/symbiot-os
 cd ~/symbiot-os
-repo init -u https://github.com/VoltageOS/manifests --git-lfs --depth 1 --branch voltage-16
+repo init -u https://github.com/VoltageOS/manifest --git-lfs --depth 1 --branch voltage-16
 ```
 
 3. Copy local_manifests folder from this repository to project directory
