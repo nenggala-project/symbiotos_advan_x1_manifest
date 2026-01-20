@@ -23,11 +23,13 @@ cp -r ~/symbiotos_advan_x1_manifest/local_manifests .repo/
 
 4. Sync repository
 ```
+cd ~/symbiot-os
 repo sync --optimize --auto-gc
 ```
 
 5. Start building
 ```
+cd ~/symbiot-os
 source build/envsetup.sh
 brunch X1
 ```
