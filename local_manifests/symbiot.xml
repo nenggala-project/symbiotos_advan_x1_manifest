@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- etalase prebuilt -->
+    <project path="external/Etalase" remote="nenggala" name="nenggala-project/symbiot-os/platform_external_etalase" clone-depth="1" />
+    <project path="vendor/symbiot" remote="nenggala" name="nenggala-project/symbiot-os/advan-x1/vendor_symbiot" clone-depth="1" />
+</manifest>
