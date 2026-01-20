@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="nenggala"
-            fetch="https://gitlab.com/nenggala-project/symbiot-os"
+            fetch="https://github.com/nenggala-project"
             revision="symbiot-16"/>
 
-    <project path="device/advan/X1" remote="nenggala" name="advan-x1/android-device-advan-x1" clone-depth="1" />
-    <project path="vendor/advan/X1" remote="nenggala" name="advan-x1/proprietary-vendor-advan-x1" clone-depth="1" />
-    <project path="device/advan/X1-kernel" remote="nenggala" name="advan-x1/android-device-advan-x1-kernel" clone-depth="1" />
+    <project path="device/advan/X1" remote="nenggala" name="android_device_advan_X1" clone-depth="1" />
+    <project path="vendor/advan/X1" remote="nenggala" name="proprietary_vendor_advan_X1" clone-depth="1" />
+    <project path="device/advan/X1-kernel" remote="nenggala" name="android_device_advan_X1-kernel" clone-depth="1" />
 
-    <project path="vendor/mediatek/ims" remote="nenggala" name="advan-x1/android-vendor-mediatek-ims" clone-depth="1" />
-    <project path="hardware/mediatek" remote="nenggala" name="advan-x1/platform-hardware-mediatek" clone-depth="1"/>
-    <project path="device/mediatek/sepolicy_vndr" remote="nenggala" name="advan-x1/platform-device-mediatek-sepolicy-vndr" clone-depth="1" />
+    <project path="vendor/mediatek/ims" remote="nenggala" name="android_vendor_mediatek_ims" clone-depth="1" />
+    <project path="hardware/mediatek" remote="nenggala" name="platform_hardware_mediatek" clone-depth="1"/>
+    <project path="device/mediatek/sepolicy_vndr" remote="nenggala" name="platform_device_mediatek_sepolicy_vndr" clone-depth="1" />
 </manifest>
