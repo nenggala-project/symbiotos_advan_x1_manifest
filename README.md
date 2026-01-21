@@ -31,5 +31,23 @@ repo sync --optimize --auto-gc
 ```
 cd ~/symbiot-os
 source build/envsetup.sh
+
+# Creating certs
+cd vendor/voltage-priv/keys 
+bash ./make_key.sh
+croot
+
+# Apply Symbiot patchset
+curl -L -o ./symbiot-patcher https://symbiotos.nenggala-project.id/file/symbiot-patcher
+chmod +x ./symbiot-patcher
+./symbiot-patcher --apply
+
+# Build
 brunch X1
 ```
+
+## Related Resources
+- [VoltageOS](https://github.com/VoltageOS)
+- [Luminedroid Devices](https://github.com/LumineDroid-Devices)
+- [ADA & ZANGEMANN: Sebuah Kisah tentang Perangkat Lunak, Skateboard, dan Es Krim Raspberry](https://lumbung.gimpscape.or.id/general/ada-and-zangemann/)
+- Thanks for [Advan X1 Community](https://t.me/Advan_X1_chat)
