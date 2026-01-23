@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" revision="symbiot-16" remote="github-nenggala" clone-depth="1"/>
+    <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" revision="symbiot-16" remote="github-nenggala" clone-depth="1"/>
+</manifest>
